@@ -52,13 +52,18 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+  Visionary Lead of Site Reliability Engineering with a track record of building diverse,
+  high-performing teams and implementing scalable, innovative solutions to enhance
+  system reliability, observability, and operational efficiency. Adept at leading cross-
+  functional initiatives and fostering cultural shifts from reactive troubleshooting to
+  proactive reliability practices.
 
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+highlights_content: | # this will include new lines to allow paragraphs
+  - **Built and mentored an SRE team** with diverse skill sets (Production Management, Scripting, Development), upskilling them to deliver reusable, strategic solutions. Led efforts to create a maturity matrix for app-level assessments, driving the technology roadmap.  
+  - **Successfully designed, built, and deployed** highly performant applications and high-quality code in a timely manner by liaising with senior management from both business and technology and ensuring product development requirements.  
+  - **Managed complex database, infrastructure, and cybersecurity migrations** while providing end-to-end observability for the application.  
+  - **Delivered actionable insights** through case studies and live dashboards, facilitating scalability discussions, budget planning, and business reviews.  
+
 
 content:
   - title: Projects # Title for the section
