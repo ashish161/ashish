@@ -6,11 +6,11 @@ repository: Git repository where your resume will be hosted, only required if yo
 version: 2
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
+name: Ashish Daga
+title: Vice President 
+email: ashish161@gmail.com
 # email_title: Email (Email title override)
-phone: Your phone number (optional)
+phone: +91-9096444567
 # phone_title: Phone (Phone title override)
 website: Your website (eg. https://google.com)(optional)
 # website_title: Web (Website title override)
@@ -58,14 +58,59 @@ about_content: | # this will include new lines to allow paragraphs
   functional initiatives and fostering cultural shifts from reactive troubleshooting to
   proactive reliability practices.
 
-highlights_content: | # this will include new lines to allow paragraphs
-  - **Built and mentored an SRE team** with diverse skill sets (Production Management, Scripting, Development), upskilling them to deliver reusable, strategic solutions. Led efforts to create a maturity matrix for app-level assessments, driving the technology roadmap.  
-  - **Successfully designed, built, and deployed** highly performant applications and high-quality code in a timely manner by liaising with senior management from both business and technology and ensuring product development requirements.  
-  - **Managed complex database, infrastructure, and cybersecurity migrations** while providing end-to-end observability for the application.  
-  - **Delivered actionable insights** through case studies and live dashboards, facilitating scalability discussions, budget planning, and business reviews.  
-
-
 content:
+  - title: Highlights # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        #title: Highlights Title
+        #quote: >
+        #  This is test Highlights quote
+        description: | # this will include new lines to allow paragraphs
+                 - **Built and mentored an SRE team** with diverse skill sets (Production Management, Scripting, Development), upskilling them to deliver reusable, strategic solutions. Led efforts to create a maturity matrix for app-level assessments, driving the technology roadmap.  
+                 - **Successfully designed, built, and deployed** highly performant applications and high-quality code in a timely manner by liaising with senior management from both business and technology and ensuring product development requirements.  
+                 - **Managed complex database, infrastructure, and cybersecurity migrations** while providing end-to-end observability for the application.  
+                 - **Delivered actionable insights** through case studies and live dashboards, facilitating scalability discussions, budget planning, and business reviews.  
+  - title: Key Responsibilities # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        #title: Highlights Title
+        #quote: >
+        #  This is test Highlights quote
+        description: | # this will include new lines to allow paragraphs
+                  ## Leadership:
+                  - Identifying the SRE pillars Observability, Automation,Monitoring and Alerting,
+                  Modernisation and imbibing the true SRE spirit, culture & skills and then deliver the
+                  same across Prime efficiently, consistently and constructively.
+                  - Identifying and evangelising consistent tooling, patterns , best practices and setting
+                  up SRE office hours to help teams review and work towards with their SRE goals and
+                  create SRE first mindset in the organisation
+
+                  ## Delivery Management:
+                  - Providing review SRE maturity of services along with developing & sustaining
+                  effective relations with business and tech stakeholders , AD and PM community
+                  - Monitoring SRE maturity for technical deliverables of concurrent projects along with
+                  supporting delivery functions to ensure end-to-end ownership of incidents and
+                  problems
+                  
+                  ## Stakeholder Management:
+                  - Delivered insights through case studies and live dashboards, facilitating scalability
+                  discussions, budget planning, and business reviews.
+                  - Gathering client requirements, their expectations & devising solutions accordingly
+                  
+                  ## Software Engineering:
+                  - Designing and implementing generic framework for loading the inbound feeds,
+                  adding modules for analytical reporting and reconciliation that helped the project to
+                  deliver faster
+                  - Planning and monitoring successful roll out of new and changed software and
+                  documentation
+                  - Designing and developing functional and technical solutions by evaluating CTQs
+                  performing portfolio analysis and conducting risk management
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -85,19 +130,57 @@ content:
         quote: >
           Short overview of the project (optional)
         description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+          Description about the work on/with the project        
   - title: Experience
     layout: list
     content:
       - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
+        title: Site Reliability Engineering - Prime Finance
+        sub_title: Lead SRE
+        caption: Aug 2021 – till date
         link: Link to company (optional)
         quote: >
-          Short description of the company (optional)
+           
         description: | # this will include new lines to allow paragraphs
           Description of role
+          ## SRE Pillars & Leadership
+
+            - Defined foundational SRE pillars, including office hours, standardized tooling (Dynatrace, Grafana,
+            Splunk, Tableau), and frameworks for reliability and observability.
+            - Conducted maturity assessments to shape the technology roadmap and align application priorities.
+            Observability
+            - Designed Grafana-based dashboards for Prime Reporting, enabling visibility into the performance,
+            health, and reliability of complex, distributed systems. Improved anomaly detection, bottleneck
+            identification, and ability to take data driven decisions based on historical trends.
+            - Developed a metrics dictionary to standardize and scale observability solutions across batch
+            processing, volumes, and system health milestones.
+            - Built a web-based RAG status dashboard for SLA-critical hedge fund client feeds, enhancing proactive
+            monitoring and minimizing client-facing impacts for account managers.
+          
+          ## System Stability
+            - Rationalized noisy alerts to prioritize actionable insights, reducing operational overhead.
+            - Automated System Recovery (SR) and Disaster Recovery (DR) testing via reusable patterns in the
+            Wolverinetool, ensuring consistent validation of critical workflows.
+            - Optimized application reliability by reducing GC cycles, fine-tuning heaps, and automating the
+            collection of CPU/heap/thread dumps for faster RCAs and incident resolution.
+            - Conducted infrastructure reviews to identify capacity bottlenecks, optimize resource utilization, and
+            reduce costs.
+ 
+          ##  Automation
+            - Built an Events Framework (Spring Boot, Kafka, Oracle DB) and a Metrics Collection Framework
+            (Python, REST APIs, Control-M), ensuring cross-application observability and reusable integrations.
+            - Automated SLA metric aggregation for CCR and enhanced AppDNa to streamline recurring tasks.
+            - Delivered tools for critical SLA monitoring, providing holistic views across client feeds.
+            - Modernization
+            - Enabled proactive monitoring for cloud migration efforts by deploying Datadog dashboards and
+            alerts.
+            - Integrated Datadog with on-premise Geneos, consolidating monitoring for a unified production
+            support view.
+            - Advocated modern telemetry and APM practices, reducing noise and improving reliability insights.
+            - Incident Management
+            - Improved MTTR through automated runbooks and enhanced alerting mechanisms.
+            - Delivered actionable insights via Tableau retrospectives, driving data-driven incident resolution and
+            workflow optimization.
   - title: Education
     layout: list
     content:
