@@ -134,15 +134,14 @@ content:
   - title: Experience
     layout: list
     content:
-      - layout: right
+      - layout: left
         title: Site Reliability Engineering - Prime Finance
         sub_title: Lead SRE
         caption: Aug 2021 – till date
-        link: Link to company (optional)
+        link: https://www.jpmorgan.com/global ink to company (optional)
         quote: >
            
         description: | # this will include new lines to allow paragraphs
-          Description of role
           ## SRE Pillars & Leadership
 
             - Defined foundational SRE pillars, including office hours, standardized tooling (Dynatrace, Grafana,
@@ -181,6 +180,43 @@ content:
             - Improved MTTR through automated runbooks and enhanced alerting mechanisms.
             - Delivered actionable insights via Tableau retrospectives, driving data-driven incident resolution and
             workflow optimization.
+
+  - title: Experience
+    layout: list
+    content:
+      - layout: left
+        title: ETP 
+        sub_title: Lead Software Developer
+        caption: Aug 2021 – till date
+        link: https://www.jpmorgan.com/global ink to company (optional)
+        quote: >
+           
+        description: | # this will include new lines to allow paragraphs
+          Equities Transfer Pricing is a joint initiative between Investment Bank (IB) Treasury and the Securities
+          Prime Brokerage & Financing (Equities and Fixed Income) Businesses. The primary objective of the
+          project is to implement a systematic cash flow to internalize (net) long positions to cover short
+          positions and apply appropriate economics on it (fee and rebate for the transaction ), this reduces the
+          funding cost to treasury. This is the most important application in Prime Finance from regulatory and
+          PnL perspective as it internalizes positions worth 700 Billion Dollars on a daily basis.
+          
+          - About 30% of my time was spent in liaising with senior management from both business and
+          technology and ensuring the product development requirements including regulatory impact are
+          understood accurately and then translated correctly into technical documentation and this
+          included demos to the business and tech
+          - Worked as Tech Lead and PIC for Equities Transfer Pricing, leading a team of 7 software engineers
+          based in the UK, Europe and India, this included assigning their daily tasks, assisting them on a
+          daily basis and guiding them in their career development
+          - Managing teams that are based globally and coming from diverse backgrounds helped me develop
+          as an empathetic and strategic leader
+          - Used agile (scrum) principles in my teams to deliver highly performant and great quality code in a
+          timely manner
+          - Refactoring of existing code to support feature flag based configurations for EMEA and NA
+          markets
+          - Collaborating with Finance Controller and Trading Desks for Automating Migration and reconciling
+          data using excel reports
+          - Mitigating production issues by hardening existing systems to include appropriate alerting,
+                    
+        
   - title: Education
     layout: list
     content:
